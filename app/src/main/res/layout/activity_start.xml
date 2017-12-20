@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.think.bitmap.StartActivity">
+
+    <Button
+        android:id="@+id/btn_bitmap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片压缩方案"
+        android:textColor="@color/colorAccent" />
+
+    <Button
+        android:id="@+id/btn_become"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片变形"
+        android:textColor="@color/colorAccent" />
+
+</LinearLayout>
